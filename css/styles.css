@@ -1,0 +1,390 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h6 {
+  font-family: "Montserrat";
+}
+
+/* Containers */
+
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* .container-fluid {
+  padding: 0 2.5%;
+} */
+
+/* Sections (color) */
+
+.colored-section{
+  background-color: #72dae7;
+  background-color: rgba(114, 218, 231, 0.25);
+}
+
+.white-section{
+  background-color: #fff;
+}
+
+
+/* Title Section specs */
+
+
+#title {
+  background-color: #164138;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: left;
+  width: 100%;
+  height: auto;
+  padding: 10px 0;
+  color: #fff;
+}
+
+#title .container-fluid {
+  padding: 0 2.5%;
+}
+
+.PIT-pic {
+  width: 80%;
+  height: auto;
+  padding: 2% 0 5%;
+}
+
+h1:hover {
+  color: #6dccb7;
+}
+
+.big-heading {
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 1.5;
+  padding-left: 10%;
+  padding-top: 27%;
+}
+
+.brand {
+  width: 45%;
+  height: auto;
+  padding-top: 5px;
+}
+
+.navbar {
+  padding: 10px 2% 10px;
+}
+
+.nav-item {
+  padding-left: 30px;
+  margin-left: -0.3%;
+}
+
+.btn-lg {
+  margin-top: 7%;
+  margin-bottom: 15%;
+}
+
+.btn-md {
+  margin-top: 7%;
+  margin-bottom: 15%;
+  margin-left: 10%;
+}
+
+.btn-light {
+  margin-left: 3%;
+}
+
+/* .appDL {
+  width: 26%;
+}
+
+.andDL {
+  width: 35%;
+} */
+
+
+/* Features Section specs */
+
+.start-box {
+  padding: 4%;
+}
+
+.start {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.pstart {
+  color: #8f8f8f;
+  margin: 0 5%;
+}
+
+.h2start {
+  font-weight: 600;
+  margin-bottom: 7%;
+  font-size: 3rem;
+}
+
+.icon:hover {
+  color: #6dccb7;
+}
+
+.icon {
+  margin-bottom: 1rem;
+}
+
+u {
+  color: #6dccb7;
+}
+
+/* Collapse & Navbar Toggler specs */
+
+
+.collapse {
+  padding-right: 20px;
+}
+
+.navbar-toggler {
+  margin-left: 3%;
+}
+
+/* Features Section specs */
+
+
+.ft-topic {
+  color: #358070;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.ft-pic {
+  width: 200px;
+  margin-top: 3%
+}
+
+/* Carousel content & formatting */
+
+h5 {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+/* Overriding carousel button color by changing "fill='%......'"  */
+
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23164138' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23164138' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+/* Edit span to create hover-color effect */
+
+
+span:hover {
+  color: #6dccb7;
+}
+
+/* Press Section specs */
+
+
+#press {
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 150px;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section specs */
+
+
+#pricing {
+  background-color: #72dae7;
+  background-color: rgba(114, 218, 231, 0.25);
+  padding: 50px 50px 50px 75px;
+}
+
+.omni-services {
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 1.5;
+  margin-bottom: 2%;
+  margin-top: 4%;
+}
+
+.h2price {
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 1.5;
+  margin-bottom: 2%;
+}
+
+.priced {
+  padding: 0 15%;
+  line-height: 1.5;
+  margin-bottom: 3.5%;
+  font-size: 1.1rem;
+}
+
+.pricing-row{
+  margin-bottom: 4%;
+}
+
+.card {
+  margin: 3% 2%;
+  border-width: thick;
+  background-color: black;
+  color: #6dccb7;
+}
+
+.o-card {
+  margin: 3% 2%;
+  padding-top: 5%;
+  border-width: thick;
+  background-color: black;
+  color: #6dccb7;
+}
+
+.card-header {
+  border-width: medium;
+  background-color: #6dccb7;
+}
+
+
+.o-card-header {
+  border-color: #6dccb7;
+  border-width: medium;
+  background-color: black;
+}
+
+.h3price {
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: black;
+}
+
+.h3-hdrlength{
+  margin: 5% 0 8.5% 0;
+}
+
+.h3omni {
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #6dccb7;
+}
+
+.pricing-column {
+  padding: 3%;
+}
+
+.btn-outline-info {
+  border-color: #6dccb7;
+  color: black;
+}
+
+.btn-dark {
+  color: #6dccb7;
+}
+
+.btn-dark:hover {
+  background: #6dccb7;
+  border-color: #6dccb7;
+  color: black;
+}
+
+/* CTA Section specs */
+
+
+.ready-block {
+  margin: 0 auto 0 auto;
+  background-color: #6dccb7;
+  height: 400px;
+  width: 900px;
+  max-width: 80%;
+  padding: 160px;
+  border-radius: 5%
+}
+
+.ready-text {
+  font-size: 2.3rem;
+  font-weight: 600;
+  margin: -15% auto;
+  line-height: 1.5;
+}
+
+.h3ready{
+  font-size:2.5vw;
+}
+
+.btn-dark-btm {
+  background-color: black;
+  color: #fff;
+  margin: 20% 2% 2%;
+}
+
+.btn-dark-btm:hover {
+  background: black;
+  border-color: #fff;
+  color: #6dccb7;
+}
+
+/* Footer Section specs */
+
+.foot{
+  background-color: #232325;
+  color: #72dae7;
+  height: 150px;
+  margin-top: 15%;
+}
+
+.foots-div{
+  padding-top:2%;
+}
+
+.social-icon{
+  margin: 30px 10px;
+  color: #72dae7;
+}
+
+.copyright-link{
+  color: #72dae7;
+  text-decoration: none;
+}
+
+/* Media Query specs*/
+
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .ready-text {
+    margin: -60% 0 15% 0;
+    width: 100px;
+    text-align: center;
+  }
+
+}
+
+.btn-dark-btm {
+    margin: 20% 2% 2%;
+    font-size:2.5vw;
+  }
+
+@media (min-width: 1100px) {
+  .ready-block {
+    margin-top: 75%;
+  }
+}
