@@ -360,6 +360,10 @@ span:hover {
   text-decoration: none;
 }
 
+.copyright-link:hover{
+  color: #6dccb7;
+}
+
 /* Media Query specs*/
 
 
