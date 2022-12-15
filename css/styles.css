@@ -34,7 +34,7 @@ h1, h2, h3, h4, h6 {
 
 
 #title {
-  background-color: #164138;
+  background-image: #164138;
   background-repeat: no-repeat;
   background-size: cover;
   text-align: left;
@@ -48,15 +48,23 @@ h1, h2, h3, h4, h6 {
   padding: 0 2.5%;
 }
 
+#team{
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: left;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  color: #fff;
+}
+
 .PIT-pic {
   width: 80%;
   height: auto;
   padding: 2% 0 5%;
 }
 
-h1:hover {
-  color: #6dccb7;
-}
 
 .big-heading {
   font-weight: 600;
@@ -64,6 +72,38 @@ h1:hover {
   line-height: 1.5;
   padding-left: 10%;
   padding-top: 27%;
+}
+
+.big-heading:hover {
+  color: #6dccb7;
+}
+
+.alt-heading {
+  font-weight: 600;
+  font-size: 7rem;
+  line-height: 1.5;
+}
+
+.alt-heading:hover {
+  text-shadow: 0 0 20px white;
+}
+
+.th{
+  margin: 50px auto 200px 20%;
+  width: 100%;
+}
+
+.founder{
+  width: 100%;
+  margin: 0 auto 0 auto;
+}
+
+.content1{
+  margin-top: 50px;
+}
+
+.firm-title{
+  margin-bottom: 20px;
 }
 
 .brand {
@@ -353,6 +393,11 @@ span:hover {
 .social-icon{
   margin: 30px 10px;
   color: #72dae7;
+}
+
+.founder-icon{
+  margin: 30px 10px;
+  color: #174038;
 }
 
 .copyright-link{
