@@ -128,10 +128,10 @@ video {
 }
 
 .brand {
-  width: 45%;
-  margin-right: 500px;
-  height: auto;
-  padding-top: 5px;
+   width: 45%;
+   margin-right: 500px;
+   height: auto;
+   padding-top: 5px;
 }
 
 .navbar {
@@ -348,6 +348,11 @@ span:hover {
   padding: 3%;
 }
 
+.gps{
+  margin-top: -50px;
+  width: 100%;
+}
+
 .btn-outline-info {
   border-color: #6dccb7;
   color: black;
@@ -438,7 +443,8 @@ span:hover {
 
 .about-text h4{
   width: 100%;
-  padding: 100px 200px;
+  padding: 0 200px 50px;
+  margin-top: -50px;
   line-height: 2;
 }
 
